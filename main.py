@@ -3,6 +3,7 @@ import os
 
 # Dict Paths
 meta_paths = {}
+series_paths = {}
 
 with open('.data.json') as data_json:
     xr_db = json.load(data_json)
@@ -31,3 +32,38 @@ with open('.data.json') as data_json:
     for series_folder_name, series_folder_path in xr_db['series_folders'].items():
         full_series_folder_path = os.path.join(root, series_folder_path)
         os.makedirs(full_series_folder_path, exist_ok=True)
+        series_paths[series_folder_name] = os.path.abspath(full_series_folder_path)
+
+    BOL = series_paths["BOL"]
+    KIM = series_paths["KIM"]
+    TG = series_paths["TG"]
+    TG_DK = series_paths["TG_DK"]
+    TG_MCT = series_paths["TG_MCT"]
+    TG_YMH = series_paths["TG_YMH"]
+    UG = series_paths["UG"]
+    UGS = series_paths["UGS"]
+    XR = series_paths["XR"]
+    BLS = series_paths["BLS"]
+    CD = series_paths["CD"]
+    DK = series_paths["DK"]
+    FL = series_paths["FL"]
+    HY = series_paths["HY"]
+    HYG = series_paths["HYG"]
+    IMS = series_paths["IMS"]
+    LY = series_paths["LY"]
+    MF = series_paths["MF"]
+    MCT = series_paths["MCT"]
+    MT = series_paths["MT"]
+    MY = series_paths["MY"]
+    MS = series_paths["MS"]
+    MM = series_paths["MM"]
+    MYG = series_paths["MYG"]
+    RSG = series_paths["RSG"]
+    ST = series_paths["ST"]
+    TKM = series_paths["TKM"]
+    UX = series_paths["UX"]
+    WS = series_paths["WS"]
+    YU = series_paths["YU"]
+    XYS = series_paths["XYS"]
+    YMH = series_paths["YMH"]
+    YOU = series_paths["YOU"]
