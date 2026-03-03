@@ -1,7 +1,7 @@
 {
   "meta_folders": {
 	"all": "!all",
-	"models": "!models/",
+	"models": "!models",
 	"unknown_models": "!models/!unknown",
 	"photographers": "!photographers",
 	"unknown_photographers": "!photographers/!unknown",
