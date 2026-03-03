@@ -26,3 +26,8 @@ with open('.data.json') as data_json:
     # Create Personal folders
     for personal_folder_name, personal_folder_path in xr_db['personal_folders'].items():
         os.makedirs(personal_folder_path, exist_ok=True)
+
+    # Create Labels and Series
+    for series_folder_name, series_folder_path in xr_db['series_folders'].items():
+        full_series_folder_path = os.path.join(root, series_folder_path)
+        os.makedirs(full_series_folder_path, exist_ok=True)
