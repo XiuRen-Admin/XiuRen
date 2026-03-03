@@ -1,7 +1,7 @@
 import json
 import os
 
-# Meta Paths
+# Dict Paths
 meta_paths = {}
 
 with open('.data.json') as data_json:
