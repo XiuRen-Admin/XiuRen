@@ -1,3 +1,11 @@
+# Ignore everything
+*
+
+# But track these
+!main.py
+!data.json
+!README.md
+
 ##### GITIGNORE FROM GITHUB FOR PYTHON #####
 # Byte-compiled / optimised / DLL files
 __pycache__/
