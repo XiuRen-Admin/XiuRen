@@ -1,0 +1,14 @@
+{
+  "meta_folders": {
+	"all": "!all",
+	"models": "!models/",
+	"unknown_models": "!models/!unknown",
+	"photographers": "!photographers",
+	"unknown_photographers": "!photographers/!unknown",
+	"specials": "!specials",
+	"collections": "!specials/!collections",
+	"crossovers": "!specials/!crossovers",
+	"featuring": "!specials/!featuring",
+	"free": "!specials/!free"
+  }
+}
