@@ -10,5 +10,10 @@
 	"crossovers": "!specials/!crossovers",
 	"featuring": "!specials/!featuring",
 	"free": "!specials/!free"
+  },
+  "personal_folders": {
+	"singles": "_singles",
+	"various_models": "_various",
+	"other_models": "_various/!others"
   }
 }

@@ -22,3 +22,7 @@ with open('.data.json') as data_json:
     crossovers = meta_paths["crossovers"]
     featuring = meta_paths["featuring"]
     free = meta_paths["free"]
+
+    # Create Personal folders
+    for personal_folder_name, personal_folder_path in xr_db['personal_folders'].items():
+        os.makedirs(personal_folder_path, exist_ok=True)
