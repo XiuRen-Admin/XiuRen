@@ -3,7 +3,7 @@
 
 # But track these
 !main.py
-!data.json
+!.data.json
 !README.md
 
 ##### GITIGNORE FROM GITHUB FOR PYTHON #####
