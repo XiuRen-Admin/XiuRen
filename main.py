@@ -5,7 +5,7 @@ import os
 meta_paths = {}
 series_paths = {}
 
-with open('.data.json') as data_json:
+with open('.data.json', encoding='utf-8-sig') as data_json:
     xr_db = json.load(data_json)
 
     # Create Meta folders
