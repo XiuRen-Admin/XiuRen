@@ -81,3 +81,14 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
             full_photographer_alias_path = os.path.join(photographers, alias+lnk)
             with winshell.shortcut(full_photographer_name_path) as shortcut:
                 shortcut.write(full_photographer_alias_path)
+
+    # Create Models
+    # First name is folder, other names aliases used as links to that folder
+    for model in xr_db['models']:
+        full_model_name_path = os.path.join(models, model[0])
+        os.makedirs(full_model_name_path, exist_ok=True)
+
+        for alias in model[1:]:
+            full_model_alias_path = os.path.join(models, alias+lnk)
+            with winshell.shortcut(full_model_name_path) as shortcut:
+                shortcut.write(full_model_alias_path)
