@@ -1,20 +1,20 @@
 ﻿{
   "meta_folders": {
 	"all": "!all",
-	"models": "!models",
-	"unknown_models": "!models/!unknown",
-	"photographers": "!photographers",
-	"unknown_photographers": "!photographers/!unknown",
-	"specials": "!specials",
-	"collections": "!specials/!collections",
-	"crossovers": "!specials/!crossovers",
+	"model": "!models",
+	"unknown_model": "!models/!unknown",
+	"photographer": "!photographers",
+	"unknown_photographer": "!photographers/!unknown",
+	"special": "!specials",
+	"collection": "!specials/!collections",
+	"crossover": "!specials/!crossovers",
 	"featuring": "!specials/!featuring",
 	"free": "!specials/!free"
   },
   "personal_folders": {
-	"singles": "_singles",
-	"various_models": "_various",
-	"other_models": "_various/!others"
+	"single": "_singles",
+	"various_model": "_various",
+	"other_model": "_various/!others"
   },
   "series_folders": {
 	"BOL": "BoLoLi/BoLoLi",

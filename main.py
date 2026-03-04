@@ -17,13 +17,13 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         meta_paths[meta_folder_name] = os.path.abspath(meta_folder_path)
 
     root = meta_paths["all"]
-    models = meta_paths["models"]
-    unknown_models = meta_paths["unknown_models"]
-    photographers = meta_paths["photographers"]
-    unknown_photographers = meta_paths["unknown_photographers"]
-    specials = meta_paths["specials"]
-    collections = meta_paths["collections"]
-    crossovers = meta_paths["crossovers"]
+    models = meta_paths["model"]
+    unknown_models = meta_paths["unknown_model"]
+    photographers = meta_paths["photographer"]
+    unknown_photographers = meta_paths["unknown_photographer"]
+    specials = meta_paths["special"]
+    collections = meta_paths["collection"]
+    crossovers = meta_paths["crossover"]
     featuring = meta_paths["featuring"]
     free = meta_paths["free"]
 
