@@ -58,5 +58,28 @@
   "models": [
 	["Viki", "杜viki"],
 	["MOON嘉依"]
+  ],
+  "issues": [
+	{
+		"id": "XR20130905N00001",
+		"label": "XR",
+		"photographer": "范家辉",
+		"models": ["Viki"],
+		"specials": [],
+		"date": null,
+		"errors": [],
+		"owned": true
+	},
+	{
+		"id": "XR20130906N00002",
+                "label": "XR",
+                "photographer": "CYL",
+                "models": ["MOON嘉依"],
+                "specials": [],
+                "date": null,
+                "errors": [],
+		"owned": true
+	}
+
   ]
 }

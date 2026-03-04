@@ -1,5 +1,7 @@
+from datetime import datetime
 import json
 import os
+import re
 import winshell
 
 # Dict Paths
@@ -7,6 +9,9 @@ meta_paths = {}
 series_paths = {}
 
 LNK = ".lnk"
+XE = ".xr_error"
+
+UNKNOWN = "!"
 
 with open('.data.json', encoding='utf-8-sig') as data_json:
     xr_db = json.load(data_json)
@@ -53,3 +58,57 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
             full_model_alias_path = os.path.join(models, alias+LNK)
             with winshell.shortcut(full_model_name_path) as shortcut:
                 shortcut.write(full_model_alias_path)
+
+    # Create Issues
+    for issue in xr_db['issues']:
+
+        stamp = issue["id"]
+
+        # Prep date
+        match = re.search(r'(\d{4})(\d{2})(\d{2})', stamp)
+        release_date_unix = None
+        if not match:
+            match = re.search(r'(\d{4})(\d{2})(\d{2})', issue["date"])
+        if match:
+            year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))
+            release_date = datetime(year, month, day)
+            release_date_unix = release_date.timestamp()
+            print(f"Setting time to {release_date} ({release_date_unix}).")
+
+        # Create XR20130905N00001 Folder
+        label = issue["label"]
+        issue_path = os.path.join(root, series_paths[label], stamp)
+        print(f"Create Folder: {issue_path}")
+
+        # Link Folder at respective Photographer
+        photographer = issue["photographer"]
+        photographer_path = None
+        if photographer == UNKNOWN:
+            photographer_path = unknown_photographers
+        else:
+            photographer_path = os.path.join(photographers, photographer)
+        print("Create Link " + os.path.join(photographer_path, stamp+LNK) + " to " + issue_path)
+
+        #Link Folder at respective Models (can be more than one)
+        model_path = None
+        for model in issue["models"]:
+            if model == UNKNOWN:
+                model_path = unknown_models
+            else:
+                model_path = os.path.join(models, model)
+            print("Create Link " + os.path.join(model_path, stamp+LNK) + " to " + issue_path)
+
+        # Create and hide xr_error files, if applicable
+        for error in issue["errors"]:
+            error_file = os.path.join(issue_path, error+XE)
+            print(f"Create File {error_file}")
+
+        # Hide folder, if not in possession
+        owned = issue["owned"]
+        if(not owned):
+            print(f"Mark {stamp} as hidden")
+
+        # Link Folder, if special issue (more than one category can be applicable)
+        for special in issue["specials"]:
+            special_path = os.path.join(meta_paths[special])
+            print("Create Link " + os.path.join(special_path, stamp+LNK) + " to " + issue_path)
