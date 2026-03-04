@@ -6,7 +6,7 @@ import winshell
 meta_paths = {}
 series_paths = {}
 
-lnk = ".lnk"
+LNK = ".lnk"
 
 with open('.data.json', encoding='utf-8-sig') as data_json:
     xr_db = json.load(data_json)
@@ -39,7 +39,7 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         os.makedirs(full_photographer_name_path, exist_ok=True)
 
         for alias in photographer[1:]:
-            full_photographer_alias_path = os.path.join(photographers, alias+lnk)
+            full_photographer_alias_path = os.path.join(photographers, alias+LNK)
             with winshell.shortcut(full_photographer_name_path) as shortcut:
                 shortcut.write(full_photographer_alias_path)
 
@@ -50,6 +50,6 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         os.makedirs(full_model_name_path, exist_ok=True)
 
         for alias in model[1:]:
-            full_model_alias_path = os.path.join(models, alias+lnk)
+            full_model_alias_path = os.path.join(models, alias+LNK)
             with winshell.shortcut(full_model_name_path) as shortcut:
                 shortcut.write(full_model_alias_path)
