@@ -1,9 +1,12 @@
 import json
 import os
+import winshell
 
 # Dict Paths
 meta_paths = {}
 series_paths = {}
+
+lnk = ".lnk"
 
 with open('.data.json', encoding='utf-8-sig') as data_json:
     xr_db = json.load(data_json)
@@ -67,3 +70,14 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
     XYS = series_paths["XYS"]
     YMH = series_paths["YMH"]
     YOU = series_paths["YOU"]
+
+    # Create Photographers
+    # First name is folder, other names aliases used as links to that folder
+    for photographer in xr_db['photographers']:
+        full_photographer_name_path = os.path.join(photographers, photographer[0])
+        os.makedirs(full_photographer_name_path, exist_ok=True)
+
+        for alias in photographer[1:]:
+            full_photographer_alias_path = os.path.join(photographers, alias+lnk)
+            with winshell.shortcut(full_photographer_name_path) as shortcut:
+                shortcut.write(full_photographer_alias_path)

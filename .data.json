@@ -50,5 +50,9 @@
 	"XYS": "XiuRen/XingYan",
 	"YMH": "XiuRen/YouMi",
 	"YOU": "XiuRen/YouWu"
-  }
+  },
+  "photographers": [
+	["范家辉"],
+	["CYL", "CYL摄影", "摄影师CYL"]
+  ]
 }
