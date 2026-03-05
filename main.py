@@ -1,8 +1,13 @@
+import ctypes # Hiding
 from datetime import datetime
 import json
 import os
 import re
 import winshell
+
+# Folder/File visibility
+HIDDEN = 0x02
+NORMAL = 0x80
 
 # Dict Paths
 meta_paths = {}
@@ -117,7 +122,10 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         # Create and hide xr_error files, if applicable
         for error in issue["errors"]:
             error_file = os.path.join(issue_path, error+XE)
-            print(f"Create File {error_file}")
+            # print(f"Create File {error_file}")
+            open(error_file, 'a').close()
+            os.utime(error_file, None)
+            ctypes.windll.kernel32.SetFileAttributesW(error_file, HIDDEN)
 
         # Hide folder, if not in possession
         owned = issue["owned"]
