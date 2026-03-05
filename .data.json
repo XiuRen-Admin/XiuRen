@@ -170,12 +170,12 @@
 	},
 	{
 		"id": "XR20130906N00002",
-                "label": "XR",
-                "photographer": "摄影师CYL",
-                "models": ["MOON嘉依"],
-                "specials": [],
-                "date": null,
-                "errors": [],
+		"label": "XR",
+		"photographer": "摄影师CYL",
+		"models": ["MOON嘉依"],
+		"specials": [],
+		"date": null,
+		"errors": [],
 		"owned": true
 	}
 
