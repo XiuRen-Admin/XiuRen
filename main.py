@@ -124,3 +124,5 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         for special in issue["specials"]:
             special_path = os.path.join(meta_paths[special])
             print("Create Link " + os.path.join(special_path, stamp+LNK) + " to " + issue_path)
+
+input("Finished.")
