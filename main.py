@@ -101,7 +101,14 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
                 model_path = unknown_models
             else:
                 model_path = os.path.join(models, model)
-            print("Create Link " + os.path.join(model_path, stamp+LNK) + " to " + issue_path)
+            if not os.path.exists(model_path):
+                print(f"Model {model} not found. New Girl?")
+                continue
+            issue_at_model_path = os.path.join(model_path, stamp+LNK)
+            # print(f"Create Link {issue_at_model_path} to {issue_path}")
+            with winshell.shortcut(issue_path) as shortcut:
+                shortcut.write(issue_at_model_path)
+            os.utime(issue_at_model_path, (release_date_unix, release_date_unix))
 
         # Create and hide xr_error files, if applicable
         for error in issue["errors"]:
