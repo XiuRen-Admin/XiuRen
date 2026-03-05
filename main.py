@@ -73,12 +73,12 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
             year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))
             release_date = datetime(year, month, day)
             release_date_unix = release_date.timestamp()
-            print(f"Setting time to {release_date} ({release_date_unix}).")
 
         # Create XR20130905N00001 Folder
         label = issue["label"]
         issue_path = os.path.join(root, series_paths[label], stamp)
-        print(f"Create Folder: {issue_path}")
+        os.makedirs(issue_path, exist_ok=True)
+        os.utime(issue_path, (release_date_unix, release_date_unix))
 
         # Link Folder at respective Photographer
         photographer = issue["photographer"]
