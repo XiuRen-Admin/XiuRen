@@ -130,7 +130,10 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         # Hide folder, if not in possession
         owned = issue["owned"]
         if(not owned):
-            print(f"Mark {stamp} as hidden")
+            # print(f"Mark {stamp} as hidden")
+            ctypes.windll.kernel32.SetFileAttributesW(issue_path, HIDDEN)
+        else:
+            ctypes.windll.kernel32.SetFileAttributesW(issue_path, NORMAL)
 
         # Link Folder, if special issue (more than one category can be applicable)
         for special in issue["specials"]:
