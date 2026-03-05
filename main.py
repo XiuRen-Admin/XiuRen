@@ -138,6 +138,9 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         # Link Folder, if special issue (more than one category can be applicable)
         for special in issue["specials"]:
             special_path = os.path.join(meta_paths[special])
-            print("Create Link " + os.path.join(special_path, stamp+LNK) + " to " + issue_path)
+            # print("Create Link " + os.path.join(special_path, stamp+LNK) + " to " + issue_path)
+            with winshell.shortcut(issue_path) as shortcut:
+                shortcut.write(os.path.join(special_path, stamp+LNK))
+            os.utime(os.path.join(special_path, stamp+LNK), (release_date_unix, release_date_unix))
 
 input("Finished.")
