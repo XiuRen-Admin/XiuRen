@@ -87,7 +87,10 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
             photographer_path = unknown_photographers
         else:
             photographer_path = os.path.join(photographers, photographer)
-        print("Create Link " + os.path.join(photographer_path, stamp+LNK) + " to " + issue_path)
+        # print("Create Link " + os.path.join(photographer_path, stamp+LNK) + " to " + issue_path)
+        with winshell.shortcut(issue_path) as shortcut:
+                shortcut.write(os.path.join(photographer_path, stamp+LNK))
+        os.utime(os.path.join(photographer_path, stamp+LNK), (release_date_unix, release_date_unix))
 
         #Link Folder at respective Models (can be more than one)
         model_path = None
