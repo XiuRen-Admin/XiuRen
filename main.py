@@ -82,10 +82,20 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
 
         # Create XR20130905N00001 Folder
         label = issue["label"]
+        tkm_path = None
+        if label == "TKM":
+            tkm_path = os.path.join(root, series_paths[label])
+            label = "BLS"
         issue_path = os.path.join(root, series_paths[label], stamp)
         # print(f"Create Folder: {issue_path}")
         os.makedirs(issue_path, exist_ok=True)
         os.utime(issue_path, (release_date_unix, release_date_unix))
+        if tkm_path:
+            bls_at_tkm_path = os.path.join(tkm_path, stamp+LNK)
+            with winshell.shortcut(issue_path) as shortcut:
+                shortcut.write(bls_at_tkm_path)
+            os.utime(bls_at_tkm_path, (release_date_unix, release_date_unix))
+            # print(f"Create Link {bls_at_tkm_path} to {issue_path}")
 
         # Link Folder at respective Photographer
         photographer = issue["photographer"]
