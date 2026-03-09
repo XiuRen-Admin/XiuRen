@@ -153,4 +153,42 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
                 shortcut.write(os.path.join(special_path, stamp+LNK))
             os.utime(os.path.join(special_path, stamp+LNK), (release_date_unix, release_date_unix))
 
+# Special case reused BOL numbers
+bol_16_stamp = "BOL.16"
+bol_17_stamp = "BOL.17"
+
+bol_16_release_date = datetime(2016, 12, 9)
+bol_16_release_date_unix = bol_16_release_date.timestamp()
+bol_17_release_date = datetime(2017, 1, 19)
+bol_17_release_date_unix = bol_17_release_date.timestamp()
+
+bol_16_issue_path = os.path.join(root, series_paths["BOL"], "!reused numbers", bol_16_stamp)
+bol_17_issue_path = os.path.join(root, series_paths["BOL"], "!reused numbers", bol_17_stamp)
+
+os.makedirs(bol_16_issue_path, exist_ok=True)
+os.utime(bol_16_issue_path, (bol_16_release_date_unix, bol_16_release_date_unix))
+os.makedirs(bol_17_issue_path, exist_ok=True)
+os.utime(bol_17_issue_path, (bol_17_release_date_unix, bol_17_release_date_unix))
+ctypes.windll.kernel32.SetFileAttributesW(bol_16_issue_path, HIDDEN)
+ctypes.windll.kernel32.SetFileAttributesW(bol_17_issue_path, HIDDEN)
+
+bol_16_photographer_path = os.path.join(photographers, "FES鳶YuanChen")
+bol_17_photographer_path = os.path.join(photographers, "BalalaPure")
+with winshell.shortcut(bol_16_issue_path) as shortcut:
+    shortcut.write(os.path.join(bol_16_photographer_path, bol_16_stamp+LNK))
+os.utime(os.path.join(bol_16_photographer_path, bol_16_stamp+LNK), (bol_16_release_date_unix, bol_16_release_date_unix))
+with winshell.shortcut(bol_17_issue_path) as shortcut:
+    shortcut.write(os.path.join(bol_17_photographer_path, bol_17_stamp+LNK))
+os.utime(os.path.join(bol_17_photographer_path, bol_17_stamp+LNK), (bol_17_release_date_unix, bol_17_release_date_unix))
+
+bol_16_model_path = os.path.join(models, "刘娅希")
+bol_17_model_path = os.path.join(models, "猫九")
+with winshell.shortcut(bol_16_issue_path) as shortcut:
+    shortcut.write(os.path.join(bol_16_model_path, bol_16_stamp+LNK))
+os.utime(os.path.join(bol_16_model_path, bol_16_stamp+LNK), (bol_16_release_date_unix, bol_16_release_date_unix))
+with winshell.shortcut(bol_17_issue_path) as shortcut:
+    shortcut.write(os.path.join(bol_17_model_path, bol_17_stamp+LNK))
+os.utime(os.path.join(bol_17_model_path, bol_17_stamp+LNK), (bol_17_release_date_unix, bol_17_release_date_unix))
+
+
 input("Finished.")
