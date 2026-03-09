@@ -18,6 +18,19 @@ XE = ".xr_error"
 
 UNKNOWN = "!"
 
+xiuren_pattern = r'(\d{4})(\d{2})(\d{2})'
+
+def get_label(set_name: str) -> str:
+    if set_name.startswith("YouMiHui"):
+        return "TGD_YMH"
+    match = re.match(r'^([A-Z]{2,4})\.?', set_name)
+    if not match:
+        return ""
+    label = match.group(1)
+    if label == "BLV":
+        return "BOL"
+    return label
+
 with open('.data.json', encoding='utf-8-sig') as data_json:
     xr_db = json.load(data_json)
 
@@ -70,10 +83,10 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         stamp = issue["id"]
 
         # Prep date
-        match = re.search(r'(\d{4})(\d{2})(\d{2})', stamp)
+        match = re.search(xiuren_pattern, stamp)
         release_date_unix = None
         if not match:
-            match = re.search(r'(\d{4})(\d{2})(\d{2})', issue["date"])
+            match = re.search(xiuren_pattern, issue["date"])
         if match:
             year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))
             release_date = datetime(year, month, day)
