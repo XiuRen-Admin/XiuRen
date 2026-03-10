@@ -49,6 +49,12 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
     for personal_folder_name, personal_folder_path in xr_db['personal_folders'].items():
         os.makedirs(personal_folder_path, exist_ok=True)
 
+    singles_path, various_path, other_path = [xr_db['personal_folders'][k] for k in ['single', 'various_model', 'other_model']]
+    various_singles, other, various, main = [xr_db['personal_collections'][k] for k in ['various_singles', 'other', 'various', 'main']]
+
+    for various_single in various_singles:
+        os.makedirs(os.path.join(various_path, various_single), exist_ok=True)
+
     # Create Labels and Series
     for series_folder_name, series_folder_path in xr_db['series_folders'].items():
         full_series_folder_path = os.path.join(root, series_folder_path)
@@ -81,6 +87,7 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
     for issue in xr_db['issues']:
 
         stamp = issue["id"]
+        model = None
 
         # Prep date
         match = re.search(xiuren_pattern, stamp)
@@ -166,6 +173,26 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
                 shortcut.write(os.path.join(special_path, stamp+LNK))
             os.utime(os.path.join(special_path, stamp+LNK), (release_date_unix, release_date_unix))
 
+        # Add folder to personal collection
+        single = issue["single"]
+        if(single):
+            single_models = set(issue["models"]) & set(various_singles)
+            if single_models:
+                for single_model in single_models:
+                    single_folder = os.path.join(various_path, single_model)
+                    # print(f"Link {stamp} under {single_folder}")
+                    issue_at_single_path = os.path.join(single_folder, stamp+LNK)
+                    with winshell.shortcut(issue_path) as shortcut:
+                        shortcut.write(issue_at_single_path)
+                    os.utime(issue_at_single_path, (release_date_unix, release_date_unix))
+            else:
+                single_folder = singles_path
+                # print(f"Link {stamp} under {single_folder}")
+                issue_at_single_path = os.path.join(single_folder, stamp+LNK)
+                with winshell.shortcut(issue_path) as shortcut:
+                    shortcut.write(issue_at_single_path)
+                os.utime(issue_at_single_path, (release_date_unix, release_date_unix))
+
 # Special case reused BOL numbers
 bol_16_stamp = "BOL.16"
 bol_17_stamp = "BOL.17"
@@ -202,6 +229,5 @@ os.utime(os.path.join(bol_16_model_path, bol_16_stamp+LNK), (bol_16_release_date
 with winshell.shortcut(bol_17_issue_path) as shortcut:
     shortcut.write(os.path.join(bol_17_model_path, bol_17_stamp+LNK))
 os.utime(os.path.join(bol_17_model_path, bol_17_stamp+LNK), (bol_17_release_date_unix, bol_17_release_date_unix))
-
 
 input("Finished.")

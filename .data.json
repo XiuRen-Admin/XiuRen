@@ -16,6 +16,19 @@
     "various_model": "_various",
     "other_model": "_various/!others"
   },
+  "personal_collections": {
+    "various_singles": [
+      "Barbie可儿",
+      "张思允 Nice",
+      "玛鲁娜",
+      "是小逗逗",
+      "王馨瑶yanni",
+      "玥儿玥er"
+    ],
+    "other": [],
+    "various": [],
+    "main": []
+  },
   "series_folders": {
     "BOL": "BoLoLi/BoLoLi",
     "KIM": "BoLoLi/Kimoe",
