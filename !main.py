@@ -234,21 +234,21 @@ os.utime(os.path.join(bol_17_model_path, bol_17_stamp+LNK), (bol_17_release_date
 for model in other:
     link_to_model = os.path.join(models, model)
     link_to_collection = os.path.join(other_path, model+LNK)
-    print(f"Linking {link_to_model} to {link_to_collection}")
+    # print(f"Linking {link_to_model} to {link_to_collection}")
     with winshell.shortcut(link_to_model) as shortcut:
         shortcut.write(link_to_collection)
 
 for model in various:
     link_to_model = os.path.join(models, model)
     link_to_collection = os.path.join(various_path, model+LNK)
-    print(f"Linking {link_to_model} to {link_to_collection}")
+    # print(f"Linking {link_to_model} to {link_to_collection}")
     with winshell.shortcut(link_to_model) as shortcut:
         shortcut.write(link_to_collection)
 
 for model in main:
     link_to_model = os.path.join(models, model)
     link_to_collection = model+LNK # this folder
-    print(f"Linking {link_to_model} to {link_to_collection}")
+    # print(f"Linking {link_to_model} to {link_to_collection}")
     with winshell.shortcut(link_to_model) as shortcut:
         shortcut.write(link_to_collection)
 
