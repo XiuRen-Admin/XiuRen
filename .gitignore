@@ -2,8 +2,8 @@
 *
 
 # But track these
-!main.py
-!video_cover_gen.py
+!!main.py
+!!video_cover_gen.py
 !.data.json
 !README.md
 
