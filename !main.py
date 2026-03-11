@@ -207,7 +207,7 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
 bol_16_stamp = "BOL.16"
 bol_17_stamp = "BOL.17"
 
-bol_16_release_date = datetime(2016, 12, 9)
+bol_16_release_date = datetime(2016, 12, 29)
 bol_16_release_date_unix = bol_16_release_date.timestamp()
 bol_17_release_date = datetime(2017, 1, 19)
 bol_17_release_date_unix = bol_17_release_date.timestamp()

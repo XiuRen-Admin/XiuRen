@@ -3092,7 +3092,6 @@
       "label": "BOL",
       "photographer": "蜜柚___mio",
       "models": [
-        "刘娅希",
         "猫九"
       ],
       "specials": [],
@@ -3105,10 +3104,9 @@
     {
       "id": "BOL.17",
       "label": "BOL",
-      "photographer": "BalalaPure",
+      "photographer": "!",
       "models": [
-        "夏美酱_",
-        "猫九"
+        "夏美酱_"
       ],
       "specials": [],
       "date": "BOL20161229VOL017",
