@@ -139,7 +139,7 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         else:
             photographer_path = os.path.join(photographers, photographer)
         if not os.path.exists(photographer_path):
-            print(f"Photographer {photographer} not found. New?")
+            print(f"Photographer of {stamp} ({photographer}) not found. New?")
         else:
             issue_at_photographer_path = os.path.join(photographer_path, stamp+LNK)
             # print(f"Create Link {issue_at_photographer_path} to {issue_path}")
@@ -155,7 +155,7 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
             else:
                 model_path = os.path.join(models, model)
             if not os.path.exists(model_path):
-                print(f"Model {model} not found. New Girl?")
+                print(f"Model of issue {stamp} ({model}) not found. New Girl?")
                 continue
             issue_at_model_path = os.path.join(model_path, stamp+LNK)
             # print(f"Create Link {issue_at_model_path} to {issue_path}")
