@@ -19,6 +19,7 @@ XE = ".xr_error"
 UNKNOWN = "!"
 
 xiuren_pattern = r'(\d{4})(\d{2})(\d{2})'
+yyyymmdd_pattern = r'(\d{4})-(\d{2})-(\d{2})'
 
 def get_label(set_name: str) -> str:
     if set_name.startswith("YouMiHui"):
@@ -93,12 +94,15 @@ with open('.data.json', encoding='utf-8-sig') as data_json:
         match = re.search(xiuren_pattern, stamp)
         release_date_unix = None
         if not match:
-            match = re.search(xiuren_pattern, issue["date"])
+            match = re.search(yyyymmdd_pattern, issue["date"])
+            # print(stamp + " " + issue["date"])
         if match:
             year, month, day = int(match.group(1)), int(match.group(2)), int(match.group(3))
             release_date = datetime(year, month, day)
             release_date_unix = release_date.timestamp()
             # print(f"Setting time to {release_date} ({release_date_unix}).")
+        else:
+            print(f"ERROR: {stamp} has no date!")
 
         # Create XR20130905N00001 Folder
         label = issue["label"]
