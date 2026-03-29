@@ -5559,7 +5559,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -10419,7 +10419,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -13785,7 +13785,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
