@@ -31522,7 +31522,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -47980,6 +47980,20 @@
       "errors": [],
       "star": false,
       "owned": false,
+      "single": false
+    },
+    {
+      "id": "XR20201023N02691",
+      "label": "XR",
+      "photographer": "!",
+      "models": [
+        "!"
+      ],
+      "specials": [],
+      "date": null,
+      "errors": [],
+      "star": false,
+      "owned": true,
       "single": false
     },
     {
