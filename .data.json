@@ -3002,7 +3002,7 @@
       "date": "2017-09-13",
       "errors": [],
       "star": false,
-      "owned": true,
+      "owned": false,
       "single": false
     },
     {
@@ -20727,7 +20727,7 @@
         "Ding Xiaonan"
       ],
       "star": false,
-      "owned": true,
+      "owned": false,
       "single": false
     },
     {
