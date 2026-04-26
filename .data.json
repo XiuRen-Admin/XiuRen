@@ -45949,7 +45949,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -46052,7 +46052,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -46192,7 +46192,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -46652,7 +46652,7 @@
       ],
       "specials": [],
       "date": null,
-      "errors": [],
+      "errors": ["Copyright @2019 xiuren.com"],
       "star": false,
       "owned": true,
       "single": false
@@ -51299,7 +51299,9 @@
       "id": "YMH20181127VOL0241",
       "label": "YMH",
       "photographer": "锐意摄影师",
-      "models": [],
+      "models": [
+        "冯木木LRIS"
+      ],
       "specials": [],
       "date": null,
       "errors": [],
@@ -51311,7 +51313,9 @@
       "id": "YMH20181203VOL0243",
       "label": "YMH",
       "photographer": "锐意摄影师",
-      "models": [],
+      "models": [
+        "冯木木LRIS"
+      ],
       "specials": [],
       "date": null,
       "errors": [],
@@ -51337,7 +51341,9 @@
       "id": "YMH20181226VOL0254",
       "label": "YMH",
       "photographer": "锐意摄影师",
-      "models": [],
+      "models": [
+        "冯木木LRIS"
+      ],
       "specials": [],
       "date": null,
       "errors": [],
