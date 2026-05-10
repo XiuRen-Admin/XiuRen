@@ -25647,7 +25647,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -35925,7 +35925,7 @@
         "2400x3595px"
       ],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
