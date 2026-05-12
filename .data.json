@@ -152,7 +152,8 @@
       "Artgraphy团队",
       "ArtGraphy-团队",
       "Artgraphy团队 - Kay",
-      "Artgraphy团队-Kay"
+      "Artgraphy团队-Kay",
+      "-Artgraphy团队"
     ],
     [
       "BalalaPure"
@@ -2738,7 +2739,7 @@
     {
       "id": "BLV.01",
       "label": "BOL",
-      "photographer": "!",
+      "photographer": "Artgraphy-Kay",
       "models": [
         "夏美酱_"
       ],
@@ -2818,7 +2819,7 @@
         "BalalaPure"
       ],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -2832,7 +2833,7 @@
       "date": "2016-10-24",
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -2890,7 +2891,7 @@
       "date": "2016-11-30",
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -4297,7 +4298,7 @@
       "date": "2016-07-31",
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
