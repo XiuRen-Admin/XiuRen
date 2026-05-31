@@ -220,11 +220,6 @@
       "XKstyle-DSHOT"
     ],
     [
-      "X-T摄影",
-      "X-TVISION",
-      "MICAT"
-    ],
-    [
       "Yummy摄影师"
     ],
     [
@@ -286,7 +281,10 @@
       "大叔影画"
     ],
     [
-      "嬰天的夏天"
+      "嬰天的夏天",
+      "X-T摄影",
+      "X-TVISION",
+      "MICAT"
     ],
     [
       "宅檬檬"
@@ -18179,7 +18177,7 @@
     {
       "id": "MCT20170510VOL0001",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18193,7 +18191,7 @@
     {
       "id": "MCT20170517VOL0002",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "米妮大萌萌"
       ],
@@ -18209,7 +18207,7 @@
     {
       "id": "MCT20170523VOL0003",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "周于希dummy"
       ],
@@ -18223,7 +18221,7 @@
     {
       "id": "MCT20170601VOL0004",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "画画sugar"
       ],
@@ -18237,7 +18235,7 @@
     {
       "id": "MCT20170602VOL0005",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18251,7 +18249,7 @@
     {
       "id": "MCT20170605VOL0006",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18265,7 +18263,7 @@
     {
       "id": "MCT20170608VOL0007",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "玟姊BABY"
       ],
@@ -18279,7 +18277,7 @@
     {
       "id": "MCT20170609VOL0008",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18293,7 +18291,7 @@
     {
       "id": "MCT20170612VOL0009",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18307,7 +18305,7 @@
     {
       "id": "MCT20170615VOL0010",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "雪瑞"
       ],
@@ -18321,7 +18319,7 @@
     {
       "id": "MCT20170616VOL0011",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "傲娇萌萌"
       ],
@@ -18335,7 +18333,7 @@
     {
       "id": "MCT20170617VOL0012",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "王婉悠"
       ],
@@ -18349,7 +18347,7 @@
     {
       "id": "MCT20170620VOL0013",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "凯竹Vision"
       ],
@@ -18363,7 +18361,7 @@
     {
       "id": "MCT20170623VOL0014",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "周于希dummy",
         "顾北北"
@@ -18380,7 +18378,7 @@
     {
       "id": "MCT20170626VOL0015",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18394,7 +18392,7 @@
     {
       "id": "MCT20170627VOL0016",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18408,7 +18406,7 @@
     {
       "id": "MCT20170704VOL0017",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "傲娇萌萌"
       ],
@@ -18422,7 +18420,7 @@
     {
       "id": "MCT20170706VOL0018",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "孙梦瑶V"
       ],
@@ -18436,7 +18434,7 @@
     {
       "id": "MCT20170707VOL0019",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "雪瑞"
       ],
@@ -18450,7 +18448,7 @@
     {
       "id": "MCT20170712VOL0020",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "雪瑞"
       ],
@@ -18464,7 +18462,7 @@
     {
       "id": "MCT20170714VOL0021",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18478,7 +18476,7 @@
     {
       "id": "MCT20170720VOL0022",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "雪瑞"
       ],
@@ -18492,7 +18490,7 @@
     {
       "id": "MCT20170721VOL0023",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "顾北北"
       ],
@@ -18506,7 +18504,7 @@
     {
       "id": "MCT20170727VOL0024",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "雪瑞"
       ],
@@ -18520,7 +18518,7 @@
     {
       "id": "MCT20170802VOL0025",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "萌琪琪Irene"
       ],
@@ -18534,7 +18532,7 @@
     {
       "id": "MCT20170807VOL0026",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18548,7 +18546,7 @@
     {
       "id": "MCT20170810VOL0027",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "夏笑笑Summer"
       ],
@@ -18562,7 +18560,7 @@
     {
       "id": "MCT20170817VOL0028",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18576,7 +18574,7 @@
     {
       "id": "MCT20170823VOL0029",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18590,7 +18588,7 @@
     {
       "id": "MCT20170930VOL0030",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "叶佳颐"
       ],
@@ -18618,7 +18616,7 @@
     {
       "id": "MCT20171018VOL0032",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18632,7 +18630,7 @@
     {
       "id": "MCT20171120VOL0033",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18646,7 +18644,7 @@
     {
       "id": "MCT20171124VOL0034",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18660,7 +18658,7 @@
     {
       "id": "MCT20171207VOL0035",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -18674,7 +18672,7 @@
     {
       "id": "MCT20171219VOL0036",
       "label": "MCT",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -36742,7 +36740,7 @@
     {
       "id": "XR20141014N00223",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "Christine"
       ],
@@ -36910,7 +36908,7 @@
     {
       "id": "XR20141107N00235",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "米尔Dear"
       ],
@@ -36994,7 +36992,7 @@
     {
       "id": "XR20141117N00241",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "Christine"
       ],
@@ -37302,7 +37300,7 @@
     {
       "id": "XR20141230N00263",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "Christine"
       ],
@@ -37484,7 +37482,7 @@
     {
       "id": "XR20150109N00276",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "CyberJelly霜爷"
       ],
@@ -37946,7 +37944,7 @@
     {
       "id": "XR20150317N00309",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "CyberJelly霜爷"
       ],
@@ -38520,7 +38518,7 @@
     {
       "id": "XR20150630N00347",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "Christine"
       ],
@@ -38646,7 +38644,7 @@
     {
       "id": "XR20150717N00355",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "鱼猫盾i"
       ],
@@ -38674,7 +38672,7 @@
     {
       "id": "XR20150721N00357",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "徐畅和徐畅"
       ],
@@ -38774,7 +38772,7 @@
     {
       "id": "XR20150727N00364",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "鱼猫盾i"
       ],
@@ -38832,7 +38830,7 @@
     {
       "id": "XR20150730N00368",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "果味包子"
       ],
@@ -38874,7 +38872,7 @@
     {
       "id": "XR20150805N00371",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "Christine"
       ],
@@ -38972,7 +38970,7 @@
     {
       "id": "XR20150813N00378",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "佩佩_Cassie"
       ],
@@ -41865,7 +41863,7 @@
     {
       "id": "XR20160816N00577",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "叶佳颐"
       ],
@@ -41991,7 +41989,7 @@
     {
       "id": "XR20160825N00586",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "叶佳颐"
       ],
@@ -42187,7 +42185,7 @@
     {
       "id": "XR20160918N00599",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "雪瑞"
       ],
@@ -42315,7 +42313,7 @@
     {
       "id": "XR20161005N00607",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "冷月yuer"
       ],
@@ -42359,7 +42357,7 @@
     {
       "id": "XR20161008N00610",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "叶佳颐"
       ],
@@ -42417,7 +42415,7 @@
     {
       "id": "XR20161010N00613",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "冷月yuer"
       ],
@@ -42529,7 +42527,7 @@
     {
       "id": "XR20161019N00620",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -42671,7 +42669,7 @@
     {
       "id": "XR20161103N00628",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -43217,7 +43215,7 @@
     {
       "id": "XR20161217N00661",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "凯竹Vision"
       ],
@@ -43360,7 +43358,7 @@
     {
       "id": "XR20161231N00671",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "姗姗就打奥特曼"
       ],
@@ -43402,7 +43400,7 @@
     {
       "id": "XR20170105N00674",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "小甜心CC"
       ],
@@ -43698,7 +43696,7 @@
     {
       "id": "XR20170213N00695",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -43726,7 +43724,7 @@
     {
       "id": "XR20170215N00697",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "傲娇萌萌"
       ],
@@ -43754,7 +43752,7 @@
     {
       "id": "XR20170217N00699",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "小甜心CC"
       ],
@@ -43782,7 +43780,7 @@
     {
       "id": "XR20170221N00701",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "傲娇萌萌"
       ],
@@ -43810,7 +43808,7 @@
     {
       "id": "XR20170222N00703",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
@@ -43852,7 +43850,7 @@
     {
       "id": "XR20170224N00706",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "小甜心CC"
       ],
@@ -43936,7 +43934,7 @@
     {
       "id": "XR20170303N00712",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "小甜心CC"
       ],
@@ -44076,7 +44074,7 @@
     {
       "id": "XR20170317N00722",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "傲娇萌萌"
       ],
@@ -44174,7 +44172,7 @@
     {
       "id": "XR20170328N00729",
       "label": "XR",
-      "photographer": "X-T摄影",
+      "photographer": "嬰天的夏天",
       "models": [
         "土肥圆矮"
       ],
