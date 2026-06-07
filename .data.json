@@ -37182,7 +37182,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37196,7 +37196,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37210,7 +37210,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37238,7 +37238,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37252,7 +37252,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37266,7 +37266,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37294,7 +37294,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37308,7 +37308,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37322,7 +37322,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": true
     },
     {
@@ -37336,7 +37336,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37350,7 +37350,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37364,7 +37364,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37378,7 +37378,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37434,7 +37434,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37448,7 +37448,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37462,7 +37462,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37476,7 +37476,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37490,7 +37490,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37518,7 +37518,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37532,7 +37532,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37546,7 +37546,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37560,7 +37560,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37574,7 +37574,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": true
     },
     {
@@ -37588,7 +37588,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37602,7 +37602,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37628,9 +37628,11 @@
       ],
       "specials": [],
       "date": null,
-      "errors": [],
+      "errors": [
+        "NewGirl"
+      ],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37658,7 +37660,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37686,7 +37688,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37700,7 +37702,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37714,7 +37716,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37728,7 +37730,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37740,9 +37742,9 @@
       ],
       "specials": [],
       "date": null,
-      "errors": [],
+      "errors": ["62P"],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37756,7 +37758,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37770,7 +37772,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37784,7 +37786,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37798,7 +37800,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -37812,8 +37814,8 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
-      "single": false
+      "owned": true,
+      "single": true
     },
     {
       "id": "XR20150215N00300",
@@ -37826,7 +37828,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
