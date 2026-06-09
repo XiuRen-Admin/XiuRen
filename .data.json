@@ -733,7 +733,8 @@
       "LULU小璐璐"
     ],
     [
-      "luvian本能"
+      "luvian本能",
+      "Luvian本能"
     ],
     [
       "MAGIC"
@@ -773,7 +774,8 @@
       "M梦baby"
     ],
     [
-      "nancy小姿"
+      "nancy小姿",
+      "Nancy小姿"
     ],
     [
       "Nicole"
@@ -2690,7 +2692,8 @@
       "鱼猫盾i"
     ],
     [
-      "鹿小茜"
+      "鹿小茜",
+      "鹿小茜_ShiRo希洛"
     ],
     [
       "麦琪绫"
@@ -34344,7 +34347,7 @@
     {
       "id": "XR20131217VN0001",
       "label": "XR",
-      "photographer": "!",
+      "photographer": "吴文羽",
       "models": [
         "张优ayoyo"
       ],
@@ -34352,13 +34355,13 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
       "id": "XR20131217VN0002",
       "label": "XR",
-      "photographer": "!",
+      "photographer": "摄影师泓佑Deyn",
       "models": [
         "luvian本能"
       ],
@@ -34366,7 +34369,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -34512,7 +34515,7 @@
     {
       "id": "XR20131228VN0003",
       "label": "XR",
-      "photographer": "!",
+      "photographer": "吴文羽",
       "models": [
         "鹿小茜"
       ],
@@ -34520,7 +34523,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -34554,7 +34557,7 @@
     {
       "id": "XR20131231VN0004",
       "label": "XR",
-      "photographer": "!",
+      "photographer": "吴文羽",
       "models": [
         "美妮MuMu"
       ],
@@ -34562,7 +34565,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
@@ -34638,7 +34641,7 @@
     {
       "id": "XR20140110VN0005",
       "label": "XR",
-      "photographer": "!",
+      "photographer": "摄影师泓佑Deyn",
       "models": [
         "nancy小姿"
       ],
@@ -34646,7 +34649,7 @@
       "date": null,
       "errors": [],
       "star": false,
-      "owned": false,
+      "owned": true,
       "single": false
     },
     {
